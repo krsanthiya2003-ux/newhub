@@ -1,17 +1,24 @@
 import React from 'react'
-import { useState } from "react";
 
-function Counter() {
-  const [count, setCount] = useState(0);
-
-  return (
+function About(){
+  return(
+    <>
     <div>
-      <h2>Count: {count}</h2>
-      <button onClick={() => setCount(count + 1)}>
-        Increase
-      </button>
-    </div>
-  );
+      <h1>About Us</h1>
+      
+      <p>Welcome to our website!We are passionate about building clean,
+        user-friendly,and modern web applications </p>
+        <div>
+          <h3>Why Choose Us</h3>
+          <ul>
+            <li>Modern UI & UX</li>
+            <li>Responsive Design</li>
+           </ul>
+        </div>
+        </div>
+        </>
+  )
 }
 
-export default Counter;
+export default About
+
